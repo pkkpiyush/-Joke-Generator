@@ -1,0 +1,139 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("background.png");
+    background-size: cover;
+}
+
+.bg{
+    display: flex;
+}
+
+.main{
+    background-color: rgba(255,255,197,0.7);
+    width: 450px;
+    height: 599px;
+    margin:auto;
+    box-shadow: 
+    -10px 0 20px rgba(0, 0, 0, 0.5),
+    10px 0 20px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(7px);
+    overflow-y: auto;
+}
+
+h1{
+    margin: 0px;
+    padding: 0px;
+    color: #DE0001;
+    font-size: 2.5rem;
+    text-shadow: 
+    -2px -2px black,
+    -2px 2px black,
+    2px -2px black,
+    2px 2px black;
+    user-select: none;
+    border-bottom: 3px solid black;
+}
+
+.head{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.para{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+    user-select: none;
+}
+
+.para p{
+    color: #00AF8E;
+    font-weight: 700;
+    text-shadow: 
+    -1px -1px black,
+    -1px 1px black,
+    1px -1px black,
+    1px 1px black;
+    font-size: 1.4rem;
+}
+
+.btn{
+    background-color: #CE860E;
+    height: 23px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: #F6E2E3;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    font-size: 1.1rem;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+    user-select: none;
+}
+
+.btn:hover{
+    background-color: #ffa914;
+    color: black;
+}
+
+.btn:active{
+    transform:scale(0.95);
+    box-shadow: none;
+}
+
+.center{
+    border-top: 4px solid goldenrod;
+    border-bottom: 4px solid goldenrod;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.type{
+    display: flex;
+    padding-left: 15px;
+    font-size: 2rem;
+    font-weight: 800;
+    user-select: none;
+    color: rgb(91, 26, 26);
+    overflow-wrap: break-word;
+}
+
+.typeAns{
+    display: flex;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    user-select: none;
+    color: rgb(149, 39, 39);
+    margin: 0px;
+    margin-top: 15px;
+}
+
+.question{
+    display: block;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+    font-weight: 600;
+    user-select: none;
+    color: #245c05;
+    overflow-wrap: break-word;
+    padding-left: 15px;
+}
+
+.answer{
+    display: block;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+    font-weight: 600;
+    user-select: none;
+    color: #16f412;
+    overflow-wrap: break-word;
+    padding-left: 15px;
+}
